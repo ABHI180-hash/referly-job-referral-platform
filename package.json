@@ -1,0 +1,19 @@
+{
+  "name": "referly-job-referral-platform",
+  "version": "1.0.0",
+  "private": true,
+  "description": "A full-stack job referral and career networking platform that connects job seekers with professionals, simplifies referral requests, and helps candidates track career opportunities.",
+  "scripts": {
+    "dev": "npm run dev --prefix client",
+    "client": "npm run dev --prefix client",
+    "server": "npm run dev --prefix server",
+    "build:client": "npm run build --prefix client",
+    "build:server": "npm run build --prefix server",
+    "build": "npm run build:client && npm run build:server",
+    "test": "npm test --prefix server",
+    "test:server": "npm test --prefix server"
+  },
+  "devDependencies": {
+    "puppeteer-core": "^25.16.0"
+  }
+}
